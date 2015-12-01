@@ -1,0 +1,7 @@
+{
+  "name": "cloud",
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1",
+    "uglify-js": "1.2.x"
+  }
+}

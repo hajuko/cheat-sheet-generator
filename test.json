@@ -1,0 +1,20 @@
+{
+  "headline": "Test Cheat Sheet",
+  "sections": [
+    {
+      "headline": "Vim Commands",
+      "rows": {
+        "a": "insert at beginning",
+        "d": "delete line",
+        "<leader>e": "opens nerdtree"
+      }
+    },
+    {
+      "headline": "git",
+      "rows": {
+        "git pull --rebase": "Pro skillz needed",
+        "git stash save -u foobar":  "Save all files as 'foobar' stash"
+      }
+    }
+  ]
+}
