@@ -1,0 +1,55 @@
+body {
+    background: #f3f3f3;
+    font-family: monospace;
+    color: #2b2b2b;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.csg-container {
+    height: 100%;
+    width: 100%;
+}
+
+.csg-container > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+section h4 {
+    margin: 0 0 6px 0;
+    line-height: 24px;
+    background: #0091EA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section {
+    align-self: baseline;
+    width: 48%;
+    margin: 5px;
+    border: 1px solid #2b2b2b;
+    padding-bottom: 10px;
+}
+
+section > div:nth-of-type(even) {
+    background: #e7e7e7;
+}
+
+section > div:nth-of-type(odd) {
+    background: #f7f7f7;
+}
+
+section > div {
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

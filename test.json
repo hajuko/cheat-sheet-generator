@@ -5,7 +5,15 @@
       "headline": "Vim Commands",
       "rows": {
         "a": "insert at beginning",
-        "d": "delete line",
+        "d": "delete li beginning",
+        "c": "delete li beginning",
+        "f": "delete li beginning",
+        "e": "delete li beginning",
+        "g": "delete li beginning",
+        "h": "delete li beginning",
+        "i": "delete li beginning",
+        "j": "delete li beginning",
+        "k": "delete line",
         "<leader>e": "opens nerdtree"
       }
     },
@@ -14,6 +22,32 @@
       "rows": {
         "git pull --rebase": "Pro skillz needed",
         "git stash save -u foobar":  "Save all files as 'foobar' stash"
+      }
+    },
+    {
+      "headline": "gitigit",
+      "rows": {
+        "git pull --rebase": "Pro skillz needed",
+        "git pull --rebase --force": "Pro skillz needed",
+        "git pull --rebase --force --hard": "Pro skillz needed",
+        "git pull": "Pro skillz needed Pro skillz needed Pro skillz needed Pro skillz needed Pro skillz needed Pro skillz needed Pro skillz needed Pro skillz needed",
+        "git stash save -u foobar":  "Save all files as 'foobar' stash"
+      }
+    },
+    {
+      "headline": "Vim Commands",
+      "rows": {
+        "a": "insert at beginning",
+        "d": "delete li beginning",
+        "c": "delete li beginning",
+        "f": "delete li beginning",
+        "e": "delete li beginning",
+        "g": "delete li beginning",
+        "h": "delete li beginning",
+        "i": "delete li beginning",
+        "j": "delete li beginning",
+        "k": "delete line",
+        "<leader>e": "opens nerdtree"
       }
     }
   ]
